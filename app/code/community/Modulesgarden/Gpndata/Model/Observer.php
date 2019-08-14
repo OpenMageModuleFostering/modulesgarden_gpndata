@@ -94,7 +94,7 @@ class Modulesgarden_Gpndata_Model_Observer {
 						break;
 					}
 					
-					if ($countBillingCycling >= $profile->getPeriodMaxCycles()){
+					if ($profile->getPeriodMaxCycles() && $countBillingCycling >= $profile->getPeriodMaxCycles()){
 						$profile->setState(Mage_Sales_Model_Recurring_Profile::STATE_SUSPENDED);
 						break;
 					}
@@ -105,7 +105,7 @@ class Modulesgarden_Gpndata_Model_Observer {
 				if ($recurring->chargeRecurringProfile($profile))
 					$countBillingCycling++;
 				
-				if ($countBillingCycling >= $profile->getPeriodMaxCycles())
+				if ($profile->getPeriodMaxCycles() && $countBillingCycling >= $profile->getPeriodMaxCycles())
 					$profile->setState(Mage_Sales_Model_Recurring_Profile::STATE_SUSPENDED);
 			}
 		}
@@ -136,7 +136,7 @@ class Modulesgarden_Gpndata_Model_Observer {
 				if ($recurring->chargeRecurringProfile($profile)){
 					$countBillingCycling++;
 					
-					if ($countBillingCycling >= $profile->getPeriodMaxCycles()){
+					if ($profile->getPeriodMaxCycles() && $countBillingCycling >= $profile->getPeriodMaxCycles()){
 						$profile->setState(Mage_Sales_Model_Recurring_Profile::STATE_SUSPENDED);
 						$profile->save();
 					}

@@ -1,22 +1,35 @@
 <?xml version="1.0"?>
 <package>
     <name>Modulesgarden_Gpndata</name>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento.</summary>
-    <description>ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento. Owing to quick and simple installation and configuration of the extension you will be able to implement convenient and secure payment method to your online store!&#xD;
+    <summary>GPN DATA For Magento&#xD;
+&#xD;
+ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento. &#xD;
+&#xD;
+ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento. Owing to quick and simple installation and configuration of the extension you will be able to implement convenient and secure payment method to your online store!&#xD;
+&#xD;
+You will be able to benefit from of all proven GPN DATA solutions, like e.g. recurring billing or 3D Secure. All this directly from your Magento!&#xD;
+&#xD;
+With GPN DATA For Magento your online payments will become much more business friendly and secure.</summary>
+    <description>GPN DATA For Magento&#xD;
+&#xD;
+ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento. &#xD;
+&#xD;
+ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento. Owing to quick and simple installation and configuration of the extension you will be able to implement convenient and secure payment method to your online store!&#xD;
 &#xD;
 You will be able to benefit from of all proven GPN DATA solutions, like e.g. recurring billing or 3D Secure. All this directly from your Magento!&#xD;
 &#xD;
 With GPN DATA For Magento your online payments will become much more business friendly and secure.</description>
-    <notes>Initial Stable Release</notes>
+    <notes>1. New Feature: Integration with ModulesGarden Base For Magento&#xD;
+2. New Feature: Support for Magento CE 1.9.1.0</notes>
     <authors><author><name>ModulesGarden</name><user>ModulesGarden</user><email>peter@inbsgroup.com</email></author></authors>
-    <date>2014-10-01</date>
-    <time>11:02:35</time>
-    <contents><target name="magecommunity"><dir name="Modulesgarden"><dir name="Gpndata"><dir name="Block"><dir name="Checkout"><dir name="Cart"><file name="Totals.php" hash="0ba8327008b9233c1ebae389dae24416"/></dir></dir><dir name="Form"><file name="Cc.php" hash="a41977960098adf9489379b396c50130"/></dir><file name="Redirect.php" hash="8aab129b741cf809582a1fa6908e631a"/></dir><dir name="Helper"><file name="Data.php" hash="a558637349d62d34db4304fb87268bdb"/></dir><dir name="Model"><dir name="Gpndata"><file name="Map.php" hash="8bf6afb97ed615e58df9ca80a3f5f13d"/></dir><dir name="Notification"><file name="850.php" hash="dc2501bef2ab54ae8b04f60bb9d145dc"/><file name="860.php" hash="fdbf58cc4a8a00e0bad528208aa23713"/><file name="870.php" hash="e6f2e459f511ed7be021d26196596c9a"/><file name="Response.php" hash="40dcb01ab59e951e3a6759f288329796"/></dir><file name="Notification.php" hash="a14248b6584f6bced7babeb3d496c0ad"/><file name="Observer.php" hash="f02a0c8b2c8ba572640dac2a346cb515"/><file name="Payment.php" hash="6832a4bcc9be705cf1f115f0c6b675dc"/><file name="Paymentrecurring.php" hash="6b75979efce977673b9a75ea298c054a"/><dir name="Request"><file name="700.php" hash="d585fe1f1b539de4e12d785bf8334a4a"/><file name="701.php" hash="650d77a18240f7d2d733eeb211e25995"/><file name="702.php" hash="c5464b098f4bd056c5a5463fb1dbb1be"/><file name="705.php" hash="374ea5d1e423e4d1d54042f54e728e35"/><file name="755.php" hash="d4e3c3a705b115f87b2c47f2749b972f"/><file name="756.php" hash="c642434b0dd59ee86a82208e763e9010"/><file name="760.php" hash="68de63bc97fbbcfd96c3c9829a6de46a"/></dir><file name="Request.php" hash="9fad4aacf396fd2aedd427edd8edcafb"/><file name="Response.php" hash="86c75ce20918c6f6eea7e0b9b81deac8"/></dir><dir name="controllers"><file name="NotificationsController.php" hash="9980c32ad2ce7e01cfc293b8ea09f120"/><file name="RedirectController.php" hash="2bcf9681a388157869b7753153f3dc1f"/></dir><dir name="etc"><file name="config.xml" hash="e7521287ba46d5430ec7353d251ad1bf"/><file name="system.xml" hash="1c8255af94f0bbb10e8efcff724a7d30"/></dir><dir name="sql"><dir name="gpndata_setup"><file name="mysql4-install-0.2.0.php" hash="c2021e11743f49a8dc78f8d180f764ef"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Modulesgarden_Gpndata.xml" hash="26441c9512668859961efb44352d1f57"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Modulesgarden_Gpndata.csv" hash="cfab8a5e1bf6bd68ca0a34d4b3d0b29b"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="gpndata.xml" hash="ffee7fbb36c6dc176016d599024e6332"/></dir></dir></dir></dir></target></contents>
+    <date>2015-01-27</date>
+    <time>13:03:23</time>
+    <contents><target name="magecommunity"><dir name="Modulesgarden"><dir name="Gpndata"><dir name="Block"><dir name="Checkout"><dir name="Cart"><file name="Totals.php" hash="0ba8327008b9233c1ebae389dae24416"/></dir></dir><dir name="Form"><file name="Cc.php" hash="a41977960098adf9489379b396c50130"/></dir><file name="Redirect.php" hash="8aab129b741cf809582a1fa6908e631a"/></dir><dir name="Helper"><file name="Data.php" hash="a558637349d62d34db4304fb87268bdb"/></dir><dir name="Model"><dir name="Gpndata"><file name="Map.php" hash="8bf6afb97ed615e58df9ca80a3f5f13d"/></dir><dir name="Notification"><file name="850.php" hash="dc2501bef2ab54ae8b04f60bb9d145dc"/><file name="860.php" hash="fdbf58cc4a8a00e0bad528208aa23713"/><file name="870.php" hash="e6f2e459f511ed7be021d26196596c9a"/><file name="Response.php" hash="40dcb01ab59e951e3a6759f288329796"/></dir><file name="Notification.php" hash="a14248b6584f6bced7babeb3d496c0ad"/><file name="Observer.php" hash="0694c59d8901ac762b46f696d1fedf58"/><file name="Payment.php" hash="6832a4bcc9be705cf1f115f0c6b675dc"/><file name="Paymentrecurring.php" hash="6b75979efce977673b9a75ea298c054a"/><dir name="Request"><file name="700.php" hash="d585fe1f1b539de4e12d785bf8334a4a"/><file name="701.php" hash="650d77a18240f7d2d733eeb211e25995"/><file name="702.php" hash="c5464b098f4bd056c5a5463fb1dbb1be"/><file name="705.php" hash="374ea5d1e423e4d1d54042f54e728e35"/><file name="755.php" hash="d4e3c3a705b115f87b2c47f2749b972f"/><file name="756.php" hash="c642434b0dd59ee86a82208e763e9010"/><file name="760.php" hash="68de63bc97fbbcfd96c3c9829a6de46a"/></dir><file name="Request.php" hash="9fad4aacf396fd2aedd427edd8edcafb"/><file name="Response.php" hash="86c75ce20918c6f6eea7e0b9b81deac8"/></dir><dir name="controllers"><file name="NotificationsController.php" hash="9980c32ad2ce7e01cfc293b8ea09f120"/><file name="RedirectController.php" hash="2bcf9681a388157869b7753153f3dc1f"/></dir><dir name="etc"><file name="config.xml" hash="5792b5d7946c7ca538cecb65e4d2783a"/><file name="system.xml" hash="1c8255af94f0bbb10e8efcff724a7d30"/></dir><dir name="sql"><dir name="gpndata_setup"><file name="mysql4-install-0.2.0.php" hash="c2021e11743f49a8dc78f8d180f764ef"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Modulesgarden_Gpndata.xml" hash="26441c9512668859961efb44352d1f57"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="gpndata.xml" hash="ffee7fbb36c6dc176016d599024e6332"/></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Modulesgarden_Gpndata.csv" hash="cfab8a5e1bf6bd68ca0a34d4b3d0b29b"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.13</min><max>5.3.24</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.13</min><max>5.4.0</max></php><package><name>Modulesgarden_Base</name><channel>community</channel><min>1.0.0</min><max></max></package><extension><name>Core</name><min></min><max></max></extension></required></dependencies>
 </package>
