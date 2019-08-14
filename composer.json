@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Modulesgarden_Gpndata",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "ModulesGarden GPN DATA For Magento will allow you to integrate GPN DATA payment gateway with your Magento.",
+    "authors": [
+    {
+        "name": "ModulesGarden",
+        "email": "peter@inbsgroup.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<adminhtml_sales_recurring_profile_view>
+		<reference name="sales.recurring.profile.view">
+			<action method="addButton">
+				<id>manual_rebill</id>
+				<params>
+					<label>Manual Rebill</label>
+					<title>Manual Rebill</title>
+					<class>save</class>
+					<onclick><![CDATA[if (confirm('Are you sure?')){ window.location.href = window.location.href + '?manual_rebill=1'; }]]></onclick>
+				</params>
+			</action>
+		</reference>
+	</adminhtml_sales_recurring_profile_view>
+</layout>
