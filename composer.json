@@ -1,5 +1,7 @@
 {
     "keywords": [
         "openmage-module"
-    ]
+    ],
+    "name": "openmage-module-fostering\/modulesgarden_gpndata",
+    "license": "OSL-3.0"
 }
